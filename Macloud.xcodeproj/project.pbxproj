@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA42C0122F681AE4005147BF /* NextcloudContainerManager in Frameworks */ = {isa = PBXBuildFile; productRef = AA42C0112F681AE4005147BF /* NextcloudContainerManager */; };
 		AA42C0262F684B6D005147BF /* NextcloudContainerManager in Frameworks */ = {isa = PBXBuildFile; productRef = AA42C0252F684B6D005147BF /* NextcloudContainerManager */; };
+		AA42C0312F684BD5005147BF /* NextcloudContainerManager in Frameworks */ = {isa = PBXBuildFile; productRef = AA42C0302F684BD5005147BF /* NextcloudContainerManager */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA42C0312F684BD5005147BF /* NextcloudContainerManager in Frameworks */,
 				AA42C0122F681AE4005147BF /* NextcloudContainerManager in Frameworks */,
 				AA42C0262F684B6D005147BF /* NextcloudContainerManager in Frameworks */,
 			);
@@ -76,6 +78,7 @@
 			packageProductDependencies = (
 				AA42C0112F681AE4005147BF /* NextcloudContainerManager */,
 				AA42C0252F684B6D005147BF /* NextcloudContainerManager */,
+				AA42C0302F684BD5005147BF /* NextcloudContainerManager */,
 			);
 			productName = Macloud;
 			productReference = AA42BFFF2F681926005147BF /* Macloud.app */;
@@ -106,6 +109,7 @@
 			mainGroup = AA42BFF62F681926005147BF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				AA42C02F2F684BD5005147BF /* XCRemoteSwiftPackageReference "nextcloud-container-manager" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA42C0002F681926005147BF /* Products */;
@@ -347,6 +351,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		AA42C02F2F684BD5005147BF /* XCRemoteSwiftPackageReference "nextcloud-container-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/i2h3/nextcloud-container-manager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		AA42C0112F681AE4005147BF /* NextcloudContainerManager */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -354,6 +369,11 @@
 		};
 		AA42C0252F684B6D005147BF /* NextcloudContainerManager */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = NextcloudContainerManager;
+		};
+		AA42C0302F684BD5005147BF /* NextcloudContainerManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA42C02F2F684BD5005147BF /* XCRemoteSwiftPackageReference "nextcloud-container-manager" */;
 			productName = NextcloudContainerManager;
 		};
 /* End XCSwiftPackageProductDependency section */
