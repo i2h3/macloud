@@ -51,6 +51,7 @@ struct MenuBarMenu: View {
                 container = try await NextcloudContainerManager.deploy()
                 activity = false
                 logger.info("Started.")
+                openInBrowser()
                 await showNotification(title: "Nextcloud Started", body: "Your Nextcloud container is now running.")
             } catch {
                 activity = false
