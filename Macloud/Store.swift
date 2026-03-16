@@ -11,6 +11,10 @@ class Store {
     var activity = false
     var container: NextcloudContainer?
 
+    init() {
+        start()
+    }
+
     var systemImageName: String {
         if activity {
             return "cloud.bolt.circle"
