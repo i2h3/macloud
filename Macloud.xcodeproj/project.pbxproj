@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA42C0122F681AE4005147BF /* NextcloudContainerManager in Frameworks */ = {isa = PBXBuildFile; productRef = AA42C0112F681AE4005147BF /* NextcloudContainerManager */; };
+		AA42C0262F684B6D005147BF /* NextcloudContainerManager in Frameworks */ = {isa = PBXBuildFile; productRef = AA42C0252F684B6D005147BF /* NextcloudContainerManager */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA42C0122F681AE4005147BF /* NextcloudContainerManager in Frameworks */,
+				AA42C0262F684B6D005147BF /* NextcloudContainerManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +75,7 @@
 			name = Macloud;
 			packageProductDependencies = (
 				AA42C0112F681AE4005147BF /* NextcloudContainerManager */,
+				AA42C0252F684B6D005147BF /* NextcloudContainerManager */,
 			);
 			productName = Macloud;
 			productReference = AA42BFFF2F681926005147BF /* Macloud.app */;
@@ -103,7 +106,6 @@
 			mainGroup = AA42BFF62F681926005147BF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				AA42C0102F681AE4005147BF /* XCLocalSwiftPackageReference "../NextcloudContainerManager" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA42C0002F681926005147BF /* Products */;
@@ -345,15 +347,12 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		AA42C0102F681AE4005147BF /* XCLocalSwiftPackageReference "../NextcloudContainerManager" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../NextcloudContainerManager;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
 		AA42C0112F681AE4005147BF /* NextcloudContainerManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NextcloudContainerManager;
+		};
+		AA42C0252F684B6D005147BF /* NextcloudContainerManager */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NextcloudContainerManager;
 		};

@@ -1,0 +1,15 @@
+{
+  "originHash" : "e070b15749f079a858cb79f5a86922c55660ceb2a5d5e987e8b7ebbf6adba649",
+  "pins" : [
+    {
+      "identity" : "nextcloud-container-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/i2h3/nextcloud-container-manager",
+      "state" : {
+        "revision" : "089bef139e6747b9d8a1709785fe66af00b512b5",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
