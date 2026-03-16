@@ -31,7 +31,15 @@ class Store {
 
         Task {
             do {
-                container = try await NextcloudContainerManager.deploy()
+                let configuration = NextcloudConfiguration(disabledApps: [
+                    "bruteforcesettings",
+                    "dashboard",
+                    "firstrunwizard",
+                    "nextcloud_announcements",
+                    "password_policy",
+                ])
+
+                container = try await NextcloudContainerManager.deploy(configuration: configuration)
                 activity = false
                 logger.info("Started.")
                 openInBrowser()

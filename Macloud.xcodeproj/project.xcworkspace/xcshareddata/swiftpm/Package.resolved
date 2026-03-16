@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/i2h3/nextcloud-container-manager",
       "state" : {
-        "revision" : "089bef139e6747b9d8a1709785fe66af00b512b5",
-        "version" : "1.0.1"
+        "revision" : "0dfcc389d0166d587d6966f3fa1966c92bb64adf",
+        "version" : "1.1.0"
       }
     }
   ],
