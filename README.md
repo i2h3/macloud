@@ -11,6 +11,11 @@ For developers working on client apps which need to connect to a Nextcloud serve
 Because I am lazy and rather click twice than type dozens of characters.
 Even pulling it out of my snippet manager is too much for me.
 
+## Requirements
+
+- macOS 26.2 Tahoe or newer
+- Docker Desktop
+
 ## License
 
 See [LICENSE](LICENSE) file.
