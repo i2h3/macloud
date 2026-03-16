@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0C86F42F68610E00A2D063 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 		AA42BFFF2F681926005147BF /* Macloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA42C0232F684B0B005147BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +43,7 @@
 		AA42BFF62F681926005147BF = {
 			isa = PBXGroup;
 			children = (
+				AA0C86F42F68610E00A2D063 /* .swiftformat */,
 				AA42C0232F684B0B005147BF /* README.md */,
 				AA42C0012F681926005147BF /* Macloud */,
 				AA42C0002F681926005147BF /* Products */,
