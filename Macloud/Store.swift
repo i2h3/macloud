@@ -37,6 +37,7 @@ class Store {
                     "firstrunwizard",
                     "nextcloud_announcements",
                     "password_policy",
+                    "photos",
                 ])
 
                 container = try await NextcloudContainerManager.deploy(configuration: configuration)
