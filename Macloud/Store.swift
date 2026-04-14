@@ -173,14 +173,8 @@ class Store {
                 let content = UNMutableNotificationContent()
                 content.title = title
                 content.body = body
-                content.sound = .default
 
-                let request = UNNotificationRequest(
-                    identifier: UUID().uuidString,
-                    content: content,
-                    trigger: nil // Deliver immediately
-                )
-
+                let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
                 try await center.add(request)
                 logger.debug("Notification shown: \(title)")
             } else {
