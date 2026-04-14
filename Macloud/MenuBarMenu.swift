@@ -16,6 +16,10 @@ struct MenuBarMenu: View {
 
                 Divider()
 
+                Button(action: store.copyAddress) {
+                    Label("Copy Address", systemImage: "document.on.document")
+                }
+
                 Button(action: store.openInBrowser) {
                     Label("Open in Browser", systemImage: "globe")
                 }

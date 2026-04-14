@@ -25,6 +25,21 @@ class Store {
         }
     }
 
+    func copyAddress() {
+        guard let container else {
+            logger.error("Attempt to copy address without container.")
+            return
+        }
+
+        let address = "http://localhost:\(container.port)"
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(address, forType: .string)
+
+        Task {
+            await showNotification(title: "Address Copied", body: address)
+        }
+    }
+
     func start() {
         logger.info("Starting...")
         activity = true
