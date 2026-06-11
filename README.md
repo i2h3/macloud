@@ -1,13 +1,13 @@
 <div align="center">
   <img src="Icon.png" alt="Macloud app icon" width="128" height="128">
   <h1>Macloud</h1>
-    <p>A minimalistic menu bar extra for macOS which controls Docker Desktop[^1] to quickly deploy an ephemeral Nextcloud server container for client development.</p>
+    <p>A minimalistic menu bar extra for macOS which fronts Docker to quickly deploy an ephemeral Nextcloud server container for client development.</p>
     <img src="./Screenshot.png" alt="Screenshot" width="207" height="205" />
 </div>
 
 ## Who is this for?
 
-For developers working on client apps which need to connect to a Nextcloud server.
+For developers working on client apps which need to connect to a clean and local Nextcloud server quickly.
 
 ## Why?
 
