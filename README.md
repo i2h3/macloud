@@ -14,6 +14,16 @@ For developers working on client apps which need to connect to a clean and local
 Because I am lazy and rather click twice than type dozens of characters.
 Even pulling it out of my snippet manager is too much for me.
 
+## What does it do?
+
+- Deploy a Nextcloud server Docker container on app launch
+- Automatically does minor provisioning on container launch, mostly disabling Nextcloud server apps unnecessary unnecessary in a local test environment like the password policy
+- Launch Docker Desktop, if not already running
+- Stop the Nextcloud server container on app termination
+- Stop or launch it again on demand
+- Provide a convenience action to copy the address including port number to pasteboard
+- Provide a convenience action to open a Terminal inside the container for `occ` commands
+
 ## Requirements
 
 - macOS 26.2 Tahoe or newer
