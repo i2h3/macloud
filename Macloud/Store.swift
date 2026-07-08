@@ -87,7 +87,7 @@ class Store {
         activity = true
 
         do {
-            try await container.delete()
+            try await NextcloudContainerManager.delete(container.id)
             logger.info("Stopped.")
             self.container = nil
             await showNotification(title: "Nextcloud Stopped", body: "Your Nextcloud container has been stopped.")
