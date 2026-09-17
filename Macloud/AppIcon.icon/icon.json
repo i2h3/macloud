@@ -1,42 +1,37 @@
 {
-  "fill" : {
-    "automatic-gradient" : "srgb:0.72157,0.49412,1.00000,1.00000"
-  },
+  "features" : [
+    "refractivity",
+    "specular-location"
+  ],
+  "fill-specializations" : [
+    {
+      "value" : {
+        "automatic-gradient" : "srgb:0.72157,0.49412,1.00000,1.00000"
+      }
+    },
+    {
+      "appearance" : "dark",
+      "value" : {
+        "automatic-gradient" : "srgb:0.32549,0.10588,0.57647,1.00000"
+      }
+    }
+  ],
   "groups" : [
     {
+      "blur-material" : 0.1,
       "layers" : [
         {
           "blend-mode" : "normal",
           "fill-specializations" : [
             {
               "value" : {
-                "automatic-gradient" : "srgb:0.32370,0.10636,0.57486,1.00000",
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
+                "solid" : "srgb:0.32370,0.10636,0.57486,1.00000"
               }
             },
             {
               "appearance" : "dark",
               "value" : {
-                "automatic-gradient" : "srgb:0.58188,0.21569,1.00000,1.00000",
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
+                "solid" : "srgb:0.72157,0.49412,1.00000,1.00000"
               }
             },
             {
@@ -53,14 +48,66 @@
             "scale" : 1,
             "translation-in-points" : [
               191.02325399999995,
-              0.5146792260409256
+              0
             ]
           }
+        }
+      ],
+      "opacity-specializations" : [
+        {
+          "value" : 0.75
         },
         {
-          "fill" : {
-            "automatic-gradient" : "srgb:1.00000,1.00000,1.00000,1.00000"
-          },
+          "appearance" : "dark",
+          "value" : 0.9
+        }
+      ],
+      "refractivity" : {
+        "depth" : 0.3705859375,
+        "enabled" : true,
+        "strength" : -0.1936328125
+      },
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0.75
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.75
+      }
+    },
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "automatic-gradient" : "srgb:1.00000,1.00000,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "linear-gradient" : [
+                  "srgb:0.84055,0.83081,0.96078,1.00000",
+                  "extended-gray:1.00000,1.00000"
+                ],
+                "orientation" : {
+                  "start" : {
+                    "x" : 0.5,
+                    "y" : 1
+                  },
+                  "stop" : {
+                    "x" : 0.5,
+                    "y" : 0
+                  }
+                }
+              }
+            }
+          ],
+          "glass" : true,
           "image-name" : "Cloud.svg",
           "name" : "Cloud",
           "opacity-specializations" : [
@@ -76,20 +123,37 @@
           "position" : {
             "scale" : 1,
             "translation-in-points" : [
-              -39.078125,
-              -38.0390625
+              0,
+              -37
             ]
           }
         }
       ],
+      "refractivity" : {
+        "depth" : 0.1447265625,
+        "enabled" : false,
+        "strength" : -0.98609375
+      },
       "shadow" : {
         "kind" : "neutral",
-        "opacity" : 0.5
+        "opacity" : 0.75
       },
-      "translucency" : {
-        "enabled" : true,
-        "value" : 0.5
-      }
+      "specular" : "inside",
+      "translucency-specializations" : [
+        {
+          "value" : {
+            "enabled" : true,
+            "value" : 0.61
+          }
+        },
+        {
+          "appearance" : "dark",
+          "value" : {
+            "enabled" : false,
+            "value" : 0.61
+          }
+        }
+      ]
     }
   ],
   "supported-platforms" : {
