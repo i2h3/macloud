@@ -359,7 +359,7 @@
 			repositoryURL = "https://github.com/i2h3/nextcloud-container-manager";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.1;
+				minimumVersion = 2.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
